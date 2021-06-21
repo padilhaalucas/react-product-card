@@ -49,6 +49,12 @@
       font-size: 7rem;
     }
   }
+  .titleAndNewContainer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
   .info {
     padding: 20px;
     .big {
@@ -132,6 +138,7 @@
     padding: 10px;
   }
 }
+
 @media (max-width: 340px) {
   .info {
     .color-container {
@@ -143,6 +150,7 @@
         }
       }
     }
+
     .size-container {
       .sizes {
         display: flex;
